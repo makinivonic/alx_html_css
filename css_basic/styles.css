@@ -1,0 +1,44 @@
+/* Apply Flexbox layout to <body> */
+body {
+    display: flex;              /* Set <body> as a flex container */
+    flex-direction: column;     /* Arrange children (<header>, <main>, <footer>) vertically */
+    height: 100vh;              /* Make <body> take up the full viewport height */
+}
+
+/* Apply Flexbox layout to <main> */
+main {
+    display: flex;              /* Set <main> as a flex container */
+    flex-direction: row;        /* Arrange children (<article>, <aside>) horizontally */
+    flex: auto;                 /* Allow <main> to take the remaining space */
+    gap: 20px;                  /* Add space between <article> and <aside> */
+}
+
+/* Styling for <article> */
+article {
+    flex: 2;                    /* Take up 2/3 of the available width */
+    overflow-y: auto;           /* Allow scrolling if content overflows */
+    padding: 10px;              /* Add some padding */
+}
+
+/* Styling for <aside> */
+aside {
+    flex: 1;                    /* Take up 1/3 of the available width */
+    overflow-y: auto;           /* Allow scrolling if content overflows */
+    padding: 10px;              /* Add some padding */
+}
+
+/* Style for header */
+header {
+    background-color: #333;    /* Dark background for the header */
+    color: white;              /* White text color */
+    padding: 15px;             /* Add padding inside the header */
+    text-align: center;        /* Center the header content */
+}
+
+/* Style for footer */
+footer {
+    background-color: #333;    /* Dark background for the footer */
+    color: white;              /* White text color */
+    padding: 15px;             /* Add padding inside the footer */
+    text-align: center;        /* Center the footer content */
+}
