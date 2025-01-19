@@ -1,0 +1,27 @@
+.navigation {
+display: flex;
+align-items: center;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+   
+    
+}
+.logo {
+    width: 160.93;
+    height: 31.18;
+    padding-left: 30px;
+}
+    
+body{
+    width: 1400px;
+    height: 800px;
+    background-image: url(images/headphones_hero_1.jpg);
+
+}
+.hero{
+    padding-top: 30px;
+}
