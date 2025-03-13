@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+header nav img{
+    object-fit: cover;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline;
+    margin: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 1093px;
+    background-image: url("images/Object.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 180px;
+}
+.first-section h1{
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+}
+.first-section-text{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.first-section-text span{
+    margin: 10px;
+}
+.first-section button{
+    width: 162px;
+    height: 44px;
+    margin-top: 20px;
+    background-color: #C271FF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    color: white;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.purple{
+    color: #C271FF;
+    font-weight: 700;
+}
+.second-section h2{
+    color: white;
+    font-weight: 300;
+}
+.second-section-people{
+    display: flex;
+    flex-direction: row;
+}
+.people{
+    width: 150px;
+    height: 237px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.people img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.people h3{
+    font-weight: 900;
+    font-size: 18px;
+}
+.people p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+}
