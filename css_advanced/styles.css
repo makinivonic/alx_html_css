@@ -118,3 +118,28 @@ main{
     font-size: 16px;
     line-height: 24px;
 }
+.quote-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 392px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.quote-section img{
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+}
+.quote-section blockquote{
+    width: 730px;
+}
+.quote-section h3{
+    margin-top: 10px;
+}
+.quote-section p{
+    font-style: italic;
+}
